@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_search_notloggedin"
+              android:title="@string/menu_search"
+              android:icon="@drawable/ic_menu_search"
+              android:showAsAction="ifRoom|collapseActionView"
+              android:actionViewClass="android.widget.SearchView" />
+    <item android:id="@+id/menu_sign_in" android:title="@string/menu_sign_in" />
+    <item android:id="@+id/menu_sign_up" android:title="@string/menu_sign_up" />
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MediaNearby</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_friends">Friends</string>
+    <string name="menu_venues">Venues</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_sign_in">Sign In</string>
+    <string name="menu_sign_up">Sign Up</string>
+    <string name="user_name">User Name</string>
+    <string name="user_name_summary">The User Name of the account</string>
+    <string name="user_password">User Password</string>
+    <string name="user_password_summary">Password for the account</string>
+</resources>

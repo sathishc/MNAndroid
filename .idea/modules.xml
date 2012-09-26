@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MNAndroid.iml" filepath="$PROJECT_DIR$/MNAndroid.iml" />
+      <module fileurl="file://$USER_HOME$/ignition/ignition-core/ignition-core-project.iml" filepath="$USER_HOME$/ignition/ignition-core/ignition-core-project.iml" />
+      <module fileurl="file://$USER_HOME$/ignition/ignition-support/ignition-support-project.iml" filepath="$USER_HOME$/ignition/ignition-support/ignition-support-project.iml" />
+    </modules>
+  </component>
+</project>
+

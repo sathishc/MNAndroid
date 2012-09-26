@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+	android:id="@+id/widget45"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget44"
+	android:layout_width="233dp"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:layout_marginTop="10dp"
+	android:text="MediaNearby Registration"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:gravity="center" />
+<TableRow
+	android:id="@+id/widget46"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget34"
+	android:layout_width="114dp"
+	android:layout_height="41dp"
+	android:text="User Name"
+	android:layout_weight="1" />
+<EditText
+	android:id="@+id/widget41"
+	android:layout_width="204dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_weight="1" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget47"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget40"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="User Email" />
+<EditText
+	android:id="@+id/widget37"
+	android:layout_width="204dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp" />
+<TableRow
+	android:id="@+id/widget48"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+</TableRow>
+</TableRow>
+<TableRow
+	android:id="@+id/widget49"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget50"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Password" />
+<EditText
+	android:id="@+id/widget51"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:password="true" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget52"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget55"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Country" />
+<AutoCompleteTextView
+	android:id="@+id/widget56"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="India"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget53"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget57"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="City" />
+<EditText
+	android:id="@+id/widget58"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget54"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget59"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Zip Code" />
+<EditText
+	android:id="@+id/widget60"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget61"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget64"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content" />
+<Button
+	android:id="@+id/widget65"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:background="#ff00ccff"
+	android:text="Register"
+	android:textStyle="bold" />
+</TableRow>
+</TableLayout>

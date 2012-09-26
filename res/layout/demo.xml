@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+<android.support.v4.view.ViewPager
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:id="@+id/four_panel_pager"/>
+<TableLayout android:id="@+id/sign_inout_table_layout"
+	android:layout_width="fill_parent"
+	android:layout_height="60dp"
+	android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow android:id="@+id/sign_inout_row"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal">
+<Button
+    android:id="@+id/sign_in_inout"
+    android:layout_width="97dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:background="#ff00ccff"
+    android:text="Sign In"
+    />
+<Button
+    android:id="@+id/sign_up_inout"
+    android:layout_width="97dp"
+    android:layout_height="40dp"
+    android:layout_weight="1"
+    android:background="#FF0000"
+    android:text="Sign Up"
+    />
+    </TableRow>
+</TableLayout>
+</LinearLayout>

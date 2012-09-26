@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget39"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<TextView
+	android:id="@+id/widget44"
+	android:layout_width="233dp"
+	android:layout_height="wrap_content"
+	android:padding="10dp"
+	android:layout_marginTop="10dp"
+	android:text="Sign Into MediaNearby"
+	android:textSize="20sp"
+	android:textStyle="bold"
+	android:gravity="center"
+	android:layout_alignParentTop="true"
+	android:layout_alignRight="@+id/widget43" />
+<Button
+	android:id="@+id/widget43"
+	android:layout_width="104dp"
+	android:layout_height="40dp"
+	android:background="#00000000"
+	android:text="Reset"
+	android:layout_alignTop="@+id/widget42"
+	android:layout_alignRight="@+id/widget41" />
+<Button
+	android:id="@+id/widget42"
+	android:layout_width="97dp"
+	android:layout_height="40dp"
+	android:background="#ff00ccff"
+	android:text="Sign In"
+	android:layout_below="@+id/widget41"
+	android:layout_alignLeft="@+id/widget41" />
+<EditText
+	android:id="@+id/widget41"
+	android:layout_width="204dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:password="true"
+	android:layout_alignTop="@+id/widget40"
+	android:layout_alignLeft="@+id/widget37" />
+<TextView
+	android:id="@+id/widget40"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="Password"
+	android:layout_below="@+id/widget37"
+	android:layout_alignParentLeft="true" />
+<EditText
+	android:id="@+id/widget37"
+	android:layout_width="204dp"
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:layout_alignBottom="@+id/widget34"
+	android:layout_toRightOf="@+id/widget34" />
+<TextView
+	android:id="@+id/widget34"
+	android:layout_width="wrap_content"
+	android:layout_height="41dp"
+	android:text="User Name"
+	android:layout_centerVertical="true"
+	android:layout_alignParentLeft="true" />
+</RelativeLayout>

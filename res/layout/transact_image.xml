@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget67"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<ImageView
+	android:id="@+id/widget69"
+	android:layout_width="316dp"
+	android:layout_height="223dp"
+	android:src="@drawable/transact2"
+	android:layout_centerVertical="true"
+	android:layout_alignParentRight="true" />
+</RelativeLayout>
