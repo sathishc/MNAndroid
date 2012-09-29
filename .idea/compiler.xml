@@ -4,6 +4,9 @@
     <option name="DEFAULT_COMPILER" value="Javac" />
     <excludeFromCompile>
       <directory url="file://$PROJECT_DIR$/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/ignition/ignition-support/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/ignition/ignition-core/gen" includeSubdirectories="true" />
+      <directory url="file://$USER_HOME$/ignition/ignition-core/ignition-core-lib/gen" includeSubdirectories="true" />
     </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>

@@ -8,6 +8,9 @@
     <string name="menu_logout">Logout</string>
     <string name="menu_sign_in">Sign In</string>
     <string name="menu_sign_up">Sign Up</string>
+    <string name="menu_shelf_it">Add to Shelf</string>
+    <string name="menu_wish_it">Add to Wish</string>
+    <string name="menu_borrow_it">Borrow</string>
     <string name="user_name">User Name</string>
     <string name="user_name_summary">The User Name of the account</string>
     <string name="user_password">User Password</string>

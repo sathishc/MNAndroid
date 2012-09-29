@@ -23,54 +23,55 @@ public final class R {
         public static final int transact3=0x7f020009;
     }
     public static final class id {
-        public static final int explore_row_ownername=0x7f07000a;
-        public static final int explore_row_thumbnail=0x7f070008;
-        public static final int explore_row_title=0x7f07000b;
+        public static final int explore_row_ownername=0x7f07000b;
+        public static final int explore_row_title=0x7f070009;
         public static final int four_panel_pager=0x7f070000;
-        public static final int fragment_container_home_signed_in=0x7f070028;
-        public static final int fragment_container_home_signed_out=0x7f070029;
+        public static final int fragment_container_home_signed_in=0x7f070027;
+        public static final int fragment_container_home_signed_out=0x7f070028;
         public static final int list_explore_view=0x7f07000d;
-        public static final int menu_friends=0x7f07002d;
-        public static final int menu_logout=0x7f07002e;
-        public static final int menu_search=0x7f07002a;
-        public static final int menu_search_notloggedin=0x7f07002f;
-        public static final int menu_settings=0x7f07002b;
-        public static final int menu_sign_in=0x7f070030;
-        public static final int menu_sign_up=0x7f070031;
-        public static final int menu_venues=0x7f07002c;
+        public static final int menu_borrow=0x7f07002f;
+        public static final int menu_friends=0x7f07002b;
+        public static final int menu_logout=0x7f07002c;
+        public static final int menu_search_notloggedin=0x7f070030;
+        public static final int menu_settings=0x7f070029;
+        public static final int menu_shelf=0x7f07002d;
+        public static final int menu_sign_in=0x7f070031;
+        public static final int menu_sign_up=0x7f070032;
+        public static final int menu_venues=0x7f07002a;
+        public static final int menu_wish=0x7f07002e;
         public static final int sign_in_inout=0x7f070003;
         public static final int sign_inout_row=0x7f070002;
         public static final int sign_inout_table_layout=0x7f070001;
         public static final int sign_up_inout=0x7f070004;
-        public static final int widget32=0x7f070007;
+        public static final int text_views_row=0x7f070008;
         public static final int widget34=0x7f07000c;
-        public static final int widget36=0x7f070009;
-        public static final int widget37=0x7f070014;
-        public static final int widget39=0x7f07000e;
-        public static final int widget40=0x7f070013;
-        public static final int widget41=0x7f070012;
-        public static final int widget42=0x7f070011;
-        public static final int widget43=0x7f070010;
-        public static final int widget44=0x7f07000f;
-        public static final int widget45=0x7f070015;
-        public static final int widget46=0x7f070016;
-        public static final int widget47=0x7f070017;
-        public static final int widget48=0x7f070018;
-        public static final int widget49=0x7f070019;
-        public static final int widget50=0x7f07001a;
-        public static final int widget51=0x7f07001b;
-        public static final int widget52=0x7f07001c;
-        public static final int widget53=0x7f07001f;
-        public static final int widget54=0x7f070022;
-        public static final int widget55=0x7f07001d;
-        public static final int widget56=0x7f07001e;
-        public static final int widget57=0x7f070020;
-        public static final int widget58=0x7f070021;
-        public static final int widget59=0x7f070023;
-        public static final int widget60=0x7f070024;
-        public static final int widget61=0x7f070025;
-        public static final int widget64=0x7f070026;
-        public static final int widget65=0x7f070027;
+        public static final int widget37=0x7f070013;
+        public static final int widget38=0x7f070007;
+        public static final int widget39=0x7f07000a;
+        public static final int widget40=0x7f070012;
+        public static final int widget41=0x7f070011;
+        public static final int widget42=0x7f070010;
+        public static final int widget43=0x7f07000f;
+        public static final int widget44=0x7f07000e;
+        public static final int widget45=0x7f070014;
+        public static final int widget46=0x7f070015;
+        public static final int widget47=0x7f070016;
+        public static final int widget48=0x7f070017;
+        public static final int widget49=0x7f070018;
+        public static final int widget50=0x7f070019;
+        public static final int widget51=0x7f07001a;
+        public static final int widget52=0x7f07001b;
+        public static final int widget53=0x7f07001e;
+        public static final int widget54=0x7f070021;
+        public static final int widget55=0x7f07001c;
+        public static final int widget56=0x7f07001d;
+        public static final int widget57=0x7f07001f;
+        public static final int widget58=0x7f070020;
+        public static final int widget59=0x7f070022;
+        public static final int widget60=0x7f070023;
+        public static final int widget61=0x7f070024;
+        public static final int widget64=0x7f070025;
+        public static final int widget65=0x7f070026;
         public static final int widget67=0x7f070005;
         public static final int widget69=0x7f070006;
     }
@@ -90,23 +91,52 @@ public final class R {
     }
     public static final class menu {
         public static final int mn_menu=0x7f060000;
-        public static final int mn_menu_notsigned=0x7f060001;
+        public static final int mn_menu_browse=0x7f060001;
+        public static final int mn_menu_notsigned=0x7f060002;
     }
     public static final class string {
-        public static final int app_name=0x7f050000;
-        public static final int menu_friends=0x7f050003;
-        public static final int menu_logout=0x7f050005;
-        public static final int menu_search=0x7f050001;
-        public static final int menu_settings=0x7f050002;
-        public static final int menu_sign_in=0x7f050006;
-        public static final int menu_sign_up=0x7f050007;
-        public static final int menu_venues=0x7f050004;
-        public static final int user_name=0x7f050008;
-        public static final int user_name_summary=0x7f050009;
-        public static final int user_password=0x7f05000a;
-        public static final int user_password_summary=0x7f05000b;
+        public static final int app_name=0x7f050004;
+        public static final int ign_error_report_email_subject=0x7f050000;
+        public static final int ign_error_report_send_button=0x7f050001;
+        public static final int ign_progress_dialog_msg=0x7f050003;
+        public static final int ign_progress_dialog_title=0x7f050002;
+        public static final int menu_borrow_it=0x7f05000e;
+        public static final int menu_friends=0x7f050007;
+        public static final int menu_logout=0x7f050009;
+        public static final int menu_search=0x7f050005;
+        public static final int menu_settings=0x7f050006;
+        public static final int menu_shelf_it=0x7f05000c;
+        public static final int menu_sign_in=0x7f05000a;
+        public static final int menu_sign_up=0x7f05000b;
+        public static final int menu_venues=0x7f050008;
+        public static final int menu_wish_it=0x7f05000d;
+        public static final int user_name=0x7f05000f;
+        public static final int user_name_summary=0x7f050010;
+        public static final int user_password=0x7f050011;
+        public static final int user_password_summary=0x7f050012;
     }
     public static final class xml {
         public static final int preferences=0x7f040000;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a RemoteImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #RemoteImageView_android_indeterminateDrawable com.alcorsys.medianearby:android_indeterminateDrawable}</code></td><td></td></tr>
+           </table>
+           @see #RemoteImageView_android_indeterminateDrawable
+         */
+        public static final int[] RemoteImageView = {
+            0x0101013b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.alcorsys.medianearby.R.attr#android_indeterminateDrawable}
+          attribute's value can be found in the {@link #RemoteImageView} array.
+          @attr name android:android_indeterminateDrawable
+        */
+        public static final int RemoteImageView_android_indeterminateDrawable = 0;
+    };
 }

@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
 import android.widget.ArrayAdapter;
-import android.widget.SearchView;
 import com.alcorsys.medianearby.R;
 
 public class HomeSignedInActivity extends FragmentActivity {
@@ -20,8 +19,30 @@ public class HomeSignedInActivity extends FragmentActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.signed_in_home);
+    }
 
+    @Override
+    protected void onResume() {
+        super.onResume();    //To change body of overridden methods use File | Settings | File Templates.
 
+        // Create an instance of ExampleFragment
+        EndlessExploreFragment firstFragment = new EndlessExploreFragment();
+
+        // In case this activity was started with special instructions from an Intent,
+        // pass the Intent's extras to the fragment as arguments
+        firstFragment.setArguments(getIntent().getExtras());
+
+        // Add the fragment to the 'fragment_container' FrameLayout
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+                transaction.add(R.id.fragment_container_home_signed_in, firstFragment);
+
+        transaction.commit();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+
+        //ActionBar setup
         // Make sure we're running on Honeycomb or higher to use ActionBar APIs
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.HONEYCOMB) {
             // For the main activity, make sure the app icon in the action bar
@@ -46,25 +67,8 @@ public class HomeSignedInActivity extends FragmentActivity {
             );
         }
 
-        // Create an instance of ExampleFragment
-        ExploreFragment firstFragment = new ExploreFragment();
-
-        // In case this activity was started with special instructions from an Intent,
-        // pass the Intent's extras to the fragment as arguments
-        firstFragment.setArguments(getIntent().getExtras());
-
-        // Add the fragment to the 'fragment_container' FrameLayout
-        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.add(R.id.fragment_container_home_signed_in, firstFragment);
-
-        transaction.commit();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-
         getMenuInflater().inflate(R.menu.mn_menu, menu);
-        SearchView searchView = (SearchView) menu.findItem(R.id.menu_search).getActionView();
+        //SearchView searchView = (SearchView) menu.findItem(R.id.menu_search).getActionView();
         // Configure the search info and add any event listeners
 
 
