@@ -8,8 +8,8 @@ import java.net.URI;
 
 public class RestClient
 {
-    private String host = "10.0.2.2";
-    private String port = "8080";
+    private String host = "www.medianearby.com";
+    private String port = "80";
     private String applicationPath = "/";
     private String apiPath = "/";
     private String loginPath = "j_spring_security_check";

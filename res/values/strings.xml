@@ -8,9 +8,20 @@
     <string name="menu_logout">Logout</string>
     <string name="menu_sign_in">Sign In</string>
     <string name="menu_sign_up">Sign Up</string>
-    <string name="menu_shelf_it">Add to Shelf</string>
-    <string name="menu_wish_it">Add to Wish</string>
-    <string name="menu_borrow_it">Borrow</string>
+
+    <string name="menu_browse_shelf_it">Add to Shelf</string>
+    <string name="menu_browse_wish_it">Add to Wish List</string>
+    <string name="menu_browse_borrow_it">Borrow</string>
+
+    <string name="tab_list_books">Books</string>
+    <string name="tab_list_movies">Movie</string>
+    <string name="tab_list_music">Music</string>
+    <string name="tab_list_games">Games</string>
+
+    <string name="menu_list_add_it">Add New</string>
+    <string name="menu_list_remove_it">Remove from List</string>
+    <string name="menu_list_edit_it">Edit Item</string>
+
     <string name="user_name">User Name</string>
     <string name="user_name_summary">The User Name of the account</string>
     <string name="user_password">User Password</string>

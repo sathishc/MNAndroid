@@ -15,10 +15,12 @@ import com.alcorsys.medianearby.rest.RestClient;
  */
 public class MediaNearbyApplication extends Application {
 
-    public static final String SERVER_HOST = "10.0.2.2";
+
     public static final String SIGN_IN_URL = "/user/emailLogin/?user_email={user_email}&user_password={user_password}"; //user/emailLogin/
     public static final String IS_LOGGED_IN_URL = "/user/isLoggedIn/"; //user/isLoggedIn
     public static final String BROWSE_ITEMS_URL = "/browse/items/?exploreMediaType={exploreMediaType}&offset={offset}&explorePlace={explorePlace}&explorePerson={explorePerson}&exploreGenre={exploreGenre}";
+    public static final String SHELF_ITEMS_URL = "/my/shelf/";
+    public static final String WISH_ITEMS_URL = "/my/wishlist/";
 
     //Database Name and version
     public static final String DB_NAME = "MediaNearby_DB";

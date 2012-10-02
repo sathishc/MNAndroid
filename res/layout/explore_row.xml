@@ -3,6 +3,7 @@
 	android:id="@+id/widget38"
 	android:layout_width="fill_parent"
 	android:layout_height="wrap_content"
+    android:minHeight="50dp"
 	xmlns:android="http://schemas.android.com/apk/res/android">
 <TableRow
     android:id="@+id/text_views_row"
@@ -25,13 +26,14 @@
 	android:layout_height="wrap_content"
 	android:orientation="horizontal"
 	android:layout_below="@+id/text_views_row"
+    android:layout_alignParentBottom="true"
 	android:layout_alignParentLeft="true">
 <TextView
     android:id="@+id/explore_row_ownername"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:textSize="12sp"
-    android:textStyle="bold"
+    android:textStyle="italic"
     />
 </TableRow>
 </RelativeLayout>

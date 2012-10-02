@@ -3,6 +3,7 @@ package com.alcorsys.medianearby.view;
 import android.app.ActionBar;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
 import android.view.Menu;
@@ -24,20 +25,29 @@ public class HomeSignedInActivity extends FragmentActivity {
     @Override
     protected void onResume() {
         super.onResume();    //To change body of overridden methods use File | Settings | File Templates.
-
         // Create an instance of ExampleFragment
-        EndlessExploreFragment firstFragment = new EndlessExploreFragment();
+        //displayFragment("Explore");
+    }
 
-        // In case this activity was started with special instructions from an Intent,
-        // pass the Intent's extras to the fragment as arguments
-        firstFragment.setArguments(getIntent().getExtras());
+    public void displayFragment(String fragmentName){
+
+        Fragment fragment;
+        // Create an instance of ExampleFragment
+        if(fragmentName.equals("Explore")){
+            fragment = new ExploreTabsFragment();
+        }else if(fragmentName.equals("Lists")){
+            fragment = new ShelfTabsFragment();
+        }else{
+            fragment = new DemoFragment();
+        }
 
         // Add the fragment to the 'fragment_container' FrameLayout
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                transaction.add(R.id.fragment_container_home_signed_in, firstFragment);
-
+                transaction.replace(R.id.fragment_container_home_signed_in, fragment,fragmentName);
+        transaction.addToBackStack(null);
         transaction.commit();
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -61,6 +71,13 @@ public class HomeSignedInActivity extends FragmentActivity {
                             int position, long id) {
                         // Take action here, e.g. switching to the
                         // corresponding fragment.
+                        if(position == 0){
+                            displayFragment("Explore");
+                        }else if(position == 1){
+                            displayFragment("Lists");
+                        }else{
+                            displayFragment("Inbox");
+                        }
                         return true;
                     }
                 }
